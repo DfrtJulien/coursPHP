@@ -1,4 +1,5 @@
 <?php
+    $myPage = "acceuil";
     require 'partials/head.php';
 ?>
     <h1>Hello !</h1>
