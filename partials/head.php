@@ -24,6 +24,8 @@
                     <button class="btn bg-danger" type="submit"><a href="/variables.php" class="text-white">Variables</a></button>
                     <button class="btn bg-danger" type="submit"><a href="/constantes.php" class="text-white">Constantes</a></button>
                     <button class="btn bg-danger" type="submit"><a href="/concatenation.php" class="text-white">Concaténation</a></button>
+                    <button class="btn bg-danger" type="submit"><a href="/arithmetique.php" class="text-white">L'arithmétique</a></button>
+                    <button class="btn bg-danger" type="submit"><a href="/condition.php" class="text-white">Les conditions</a></button>
                 </div>
             </div>
         </nav>
