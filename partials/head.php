@@ -13,7 +13,7 @@
 <body>
     <header>
         <nav class="navbar bg-dark py-4">
-            <div class="container">
+            <div class="d-flex">
                 <a class="navbar-brand text-light" href="#">
                     <img src="/public/img/logo_poleS.png" alt="Logo lepoles" width="30" height="24">
                     Les bases de PHP
@@ -43,6 +43,12 @@
                     };
                     if ($myPage !== 'tableaux') {
                         echo '<button class="btn bg-danger mx-3" type="submit"><a href="/tableaux.php" class="text-white">Les tableaux</a></button>';
+                    };
+                    if ($myPage !== 'boucle') {
+                        echo '<button class="btn bg-danger mx-3" type="submit"><a href="/boucles.php" class="text-white">Les Boucles</a></button>';
+                    };
+                    if ($myPage !== 'date') {
+                        echo '<button class="btn bg-danger mx-3" type="submit"><a href="/date.php" class="text-white">Les Dates</a></button>';
                     };
                     ?>
                 </div>
