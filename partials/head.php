@@ -50,6 +50,12 @@
                     if ($myPage !== 'date') {
                         echo '<button class="btn bg-danger mx-3" type="submit"><a href="/date.php" class="text-white">Les Dates</a></button>';
                     };
+                    if ($myPage !== 'inclusion') {
+                        echo '<button class="btn bg-danger mx-3" type="submit"><a href="/inclusion.php" class="text-white">Les inclusion</a></button>';
+                    };
+                    if ($myPage !== 'fonction') {
+                        echo '<button class="btn bg-danger mx-3" type="submit"><a href="/fonction.php" class="text-white">Les fonction</a></button>';
+                    };
                     ?>
                 </div>
             </div>
